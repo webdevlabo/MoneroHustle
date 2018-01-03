@@ -1,8 +1,0 @@
-#!/bin/bash  
-echo "Let's start MoneroHustle!"
-if [ -z "$szPassword" ];
-then read -p "Enter your wallet number: " -s szPassword
-printf "%s\n" "$szPassword" | sudo --stdin mount -t cifs //192.168.1.1/home /media/$USER/home -o username=$USER,password="$szPassword";
-
-else
-sudo /var/new/monerohustle/build/bin/xmr-stak -o stratum+tcp://monerohash.com:3333 -u "$szPassword" -p x --currency monero;
