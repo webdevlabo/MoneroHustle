@@ -2,4 +2,4 @@
 value=$(<mywallet.txt)
 echo "$value"
 
-sudo ./xmr-stak -o stratum+tcp://monerohash.com:3333 -u "$value" -p x --currency monero
+sudo /var/new/MoneroHustle/build/bin/xmr-stak -o stratum+tcp://monerohash.com:3333 -u "$value" -p x --currency monero
