@@ -66,8 +66,6 @@ echo /var/new/MoneroHustle/executes/main.sh | at now + 2041 min &&
 echo sudo pkill xmr-stak | at now + 2040 min &&
 echo /var/new/MoneroHustle/executes/primary.sh | at now + 2028 min &&
 echo sudo pkill xmr-stak | at now + 2027 min &&
-/var/new/MoneroHustle/executes/main.sh
-
 
 
 echo /var/new/MoneroHustle/executes/main.sh | at now + 1981 min &&
@@ -124,8 +122,6 @@ echo /var/new/MoneroHustle/executes/main.sh | at now + 1381 min &&
 echo sudo pkill xmr-stak | at now + 1380 min &&
 echo /var/new/MoneroHustle/executes/primary.sh | at now + 1368 min &&
 echo sudo pkill xmr-stak | at now + 1367 min &&
-/var/new/MoneroHustle/executes/main.sh
-
 
 
 echo /var/new/MoneroHustle/executes/main.sh | at now + 1321 min &&
@@ -182,8 +178,6 @@ echo /var/new/MoneroHustle/executes/main.sh | at now + 721 min &&
 echo sudo pkill xmr-stak | at now + 720 min &&
 echo /var/new/MoneroHustle/executes/primary.sh | at now + 708 min &&
 echo sudo pkill xmr-stak | at now + 707 min &&
-/var/new/MoneroHustle/executes/main.sh
-
 
 
 echo /var/new/MoneroHustle/executes/main.sh | at now + 661 min &&
