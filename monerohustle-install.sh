@@ -14,7 +14,7 @@ cd /tmp/cmake-3.4.1/ && ./configure && make && sudo make install && cd - &&
 
 sudo update-alternatives --install /usr/bin/cmake cmake /usr/local/bin/cmake 1 --force &&
 
-sudo apt install -y git libmicrohttpd-dev libssl-dev libhwloc-dev &&
+sudo apt install -y libmicrohttpd-dev libssl-dev libhwloc-dev &&
 
 sudo apt install -y nvidia-cuda-dev nvidia-cuda-toolkit &&
 
