@@ -1,13 +1,5 @@
 #!/bin/bash  
 
-sudo su
-
-cd /var/ &&
-
-mkdir new/ &&
-
-cd new/ &&
-
 sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test &&
 
 sudo apt update &&
@@ -26,11 +18,9 @@ sudo apt install -y git libmicrohttpd-dev libssl-dev libhwloc-dev &&
 
 sudo apt install -y nvidia-cuda-dev nvidia-cuda-toolkit &&
 
-git clone https://github.com/webdevlabo/MoneroHustle.git &&
+mkdir build/ &&
 
-mkdir MoneroHustle/build &&
-
-cd MoneroHustle/build &&
+cd build/ &&
 
 cmake .. &&
 
